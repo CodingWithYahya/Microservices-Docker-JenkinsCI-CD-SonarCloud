@@ -1,0 +1,15 @@
+
+Pma.emsi.serviceReservation.model.Reservation#getDateReservation()Ljava/sql/Date;’
+‡/C:/Users/crazy/OneDrive/Bureau/New folder (3)/hotel/serviceReservation/src/main/java/ma/emsi/serviceReservation/model/Reservation.javaP P("1*¾
+1Q	 Q(‹
+ˆ
+Q	 Q(
+%0java.sql.Date"__id*a
+
+__unknown_file (E*C.
+,ma.emsi.serviceReservation.model.Reservation"
+dateReservation"!
+Q Q(
+
+%0java.sql.DateB0.
+,ma.emsi.serviceReservation.model.ReservationH

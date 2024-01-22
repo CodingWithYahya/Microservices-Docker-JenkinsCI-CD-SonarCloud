@@ -1,0 +1,4 @@
+ma.emsi.serviceUser.controller.UserController#findById(Ljava/lang/String;)Lma/emsi/serviceUser/model/User;
+java.lang.Integer#parseInt(Ljava/lang/String;)I
+==
+findById ma.emsi.serviceUser.repository.UserRepository#findById(I)Lma/emsi/serviceUser/model/User;

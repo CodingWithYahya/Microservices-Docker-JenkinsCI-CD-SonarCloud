@@ -1,0 +1,14 @@
+ma.emsi.serviceUser.model.UserTest#testGettersAndSetters()V
+ma.emsi.serviceUser.model.User#instance-init#
+ma.emsi.serviceUser.model.User#<init>()V
+==
+setNom ma.emsi.serviceUser.model.User#setNom(Ljava/lang/String;)V
+setEmail ma.emsi.serviceUser.model.User#setEmail(Ljava/lang/String;)V
+getPassword ma.emsi.serviceUser.model.User#getPassword()Ljava/lang/String;
+getId ma.emsi.serviceUser.model.User#getId()I
+setId ma.emsi.serviceUser.model.User#setId(I)V
+setPassword ma.emsi.serviceUser.model.User#setPassword(Ljava/lang/String;)V
+setPrenom ma.emsi.serviceUser.model.User#setPrenom(Ljava/lang/String;)V
+getNom ma.emsi.serviceUser.model.User#getNom()Ljava/lang/String;
+getPrenom ma.emsi.serviceUser.model.User#getPrenom()Ljava/lang/String;
+getEmail ma.emsi.serviceUser.model.User#getEmail()Ljava/lang/String;

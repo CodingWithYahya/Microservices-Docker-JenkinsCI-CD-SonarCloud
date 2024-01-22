@@ -1,0 +1,6 @@
+ma.emsi.serviceUser.controller.UserControllerTest#findById()V
+ma.emsi.serviceUser.model.User#instance-init#
+ma.emsi.serviceUser.model.User#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+==
+findById ma.emsi.serviceUser.repository.UserRepository#findById(I)Lma/emsi/serviceUser/model/User;
+findById ma.emsi.serviceUser.controller.UserController#findById(Ljava/lang/String;)Lma/emsi/serviceUser/model/User;

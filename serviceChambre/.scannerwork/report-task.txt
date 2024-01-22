@@ -1,0 +1,7 @@
+organization=emsisonarg5
+projectKey=emsisonarg5_servicechambre
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.51767
+dashboardUrl=https://sonarcloud.io/dashboard?id=emsisonarg5_servicechambre
+ceTaskId=AYzALr5Jz00S9SXW7G6s
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYzALr5Jz00S9SXW7G6s

@@ -1,0 +1,4 @@
+ma.emsi.serviceChambre.controller.HotelController#delete(Ljava/lang/String;)V
+java.lang.Integer#parseInt(Ljava/lang/String;)I
+==
+findById ma.emsi.serviceChambre.repository.HotelRepository#findById(I)Lma/emsi/serviceChambre/model/Hotel;

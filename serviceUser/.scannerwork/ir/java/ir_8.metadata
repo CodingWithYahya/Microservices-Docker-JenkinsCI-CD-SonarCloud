@@ -1,0 +1,6 @@
+ma.emsi.serviceUser.controller.UserControllerTest#delete()V
+ma.emsi.serviceUser.model.User#instance-init#
+ma.emsi.serviceUser.model.User#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+==
+findById ma.emsi.serviceUser.repository.UserRepository#findById(I)Lma/emsi/serviceUser/model/User;
+delete ma.emsi.serviceUser.controller.UserController#delete(Ljava/lang/String;)V

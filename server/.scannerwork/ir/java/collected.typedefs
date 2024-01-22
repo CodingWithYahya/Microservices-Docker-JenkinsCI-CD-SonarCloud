@@ -1,0 +1,7 @@
+»
+%ma.emsi.server.ServerApplicationTests9
+<init>/ma.emsi.server.ServerApplicationTests#<init>()VE
+contextLoads5ma.emsi.server.ServerApplicationTests#contextLoads()Vjava.lang.Object¯
+ ma.emsi.server.ServerApplication4
+<init>*ma.emsi.server.ServerApplication#<init>()VC
+main;ma.emsi.server.ServerApplication#main([Ljava/lang/String;)Vjava.lang.Object

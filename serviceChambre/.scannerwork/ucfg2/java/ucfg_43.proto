@@ -1,0 +1,100 @@
+
+?ma.emsi.serviceChambre.model.Hotel#toString()Ljava/lang/String;É
+y/C:/Users/crazy/OneDrive/Bureau/New folder (3)/hotel/serviceChambre/src/main/java/ma/emsi/serviceChambre/model/Hotel.java? ?("1*€
+
+1@	 @(^
+\
+@	 @(
+%0java.lang.String"__concat*
+@	 @(
+
+Hotel [id=*
+@ @(
+""l
+j
+@	 @(%
+%1java.lang.String"__concat*$
+@	 @(
+
+%0java.lang.String*
+@ @(%
+
+, nom=w
+u
+@( @(+
+%2java.lang.String"__id*K
+
+__unknown_file (/*-$
+"ma.emsi.serviceChambre.model.Hotel"
+nomz
+x
+@	 @(+
+%3java.lang.String"__concat*$
+@	 @(%
+
+%1java.lang.String*$
+@( @(+
+
+%2java.lang.Stringp
+n
+@	 @(:
+%4java.lang.String"__concat*$
+@	 @(+
+
+%3java.lang.String*
+@. @(:
+
+, adresse={
+y
+@= @(D
+%5java.lang.String"__id*O
+
+__unknown_file (3*1$
+"ma.emsi.serviceChambre.model.Hotel"	
+adressez
+x
+@	 @(D
+%6java.lang.String"__concat*$
+@	 @(:
+
+%4java.lang.String*$
+@= @(D
+
+%5java.lang.Stringn
+l
+@	 @(Q
+%7java.lang.String"__concat*$
+@	 @(D
+
+%6java.lang.String*
+@G @(Q
+
+, ville=å
+â
+@T @(Y(
+%8"ma.emsi.serviceChambre.model.Ville"__id*M
+
+__unknown_file (1*/$
+"ma.emsi.serviceChambre.model.Hotel"
+villeç
+ä
+@	 @(Y
+%9java.lang.String"__concat*$
+@	 @(Q
+
+%7java.lang.String*6
+@T @(Y*
+(
+%8"ma.emsi.serviceChambre.model.Villeh
+f
+@	 @(_
+%10java.lang.String"__concat*$
+@	 @(Y
+
+%9java.lang.String*
+@\ @(_
+]"%
+@ @(`
+
+%10java.lang.StringB&$
+"ma.emsi.serviceChambre.model.HotelH

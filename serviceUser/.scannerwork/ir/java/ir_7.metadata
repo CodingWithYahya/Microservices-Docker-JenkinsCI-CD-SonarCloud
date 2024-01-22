@@ -1,0 +1,5 @@
+ma.emsi.serviceUser.controller.UserControllerTest#patch()V
+ma.emsi.serviceUser.model.User#instance-init#
+ma.emsi.serviceUser.model.User#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+==
+patch ma.emsi.serviceUser.controller.UserController#patch(Lma/emsi/serviceUser/model/User;)V

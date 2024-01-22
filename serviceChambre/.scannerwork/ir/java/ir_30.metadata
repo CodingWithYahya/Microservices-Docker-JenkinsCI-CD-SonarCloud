@@ -1,0 +1,4 @@
+ma.emsi.serviceChambre.controller.ChambreController#findById(Ljava/lang/String;)Lma/emsi/serviceChambre/model/Chambre;
+java.lang.Integer#parseInt(Ljava/lang/String;)I
+==
+findById ma.emsi.serviceChambre.repository.ChambreRepository#findById(I)Lma/emsi/serviceChambre/model/Chambre;

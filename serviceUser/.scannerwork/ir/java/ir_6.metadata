@@ -1,0 +1,6 @@
+ma.emsi.serviceUser.controller.UserControllerTest#save()V
+ma.emsi.serviceUser.model.User#instance-init#
+ma.emsi.serviceUser.model.User#<init>()V
+ma.emsi.serviceUser.model.User#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+==
+save ma.emsi.serviceUser.controller.UserController#save(Lma/emsi/serviceUser/model/User;)V

@@ -1,0 +1,10 @@
+ma.emsi.serviceReservation.controller.ReservationController#findAll()Ljava/util/List;
+java.lang.String#valueOf(I)Ljava/lang/String;
+==
+getChambreId ma.emsi.serviceReservation.model.Reservation#getChambreId()I
+findById ma.emsi.serviceReservation.ServiceReservationApplication$ChambreService#findById(Ljava/lang/String;)Lma/emsi/serviceReservation/model/Chambre;
+findById ma.emsi.serviceReservation.ServiceReservationApplication$UserService#findById(Ljava/lang/String;)Lma/emsi/serviceReservation/model/User;
+println java.io.PrintStream#println(Ljava/lang/Object;)V
+setUser ma.emsi.serviceReservation.model.Reservation#setUser(Lma/emsi/serviceReservation/model/User;)V
+setChambre ma.emsi.serviceReservation.model.Reservation#setChambre(Lma/emsi/serviceReservation/model/Chambre;)V
+getUserId ma.emsi.serviceReservation.model.Reservation#getUserId()I

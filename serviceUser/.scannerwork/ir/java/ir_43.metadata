@@ -1,0 +1,4 @@
+ma.emsi.serviceUser.controller.UserController#delete(Ljava/lang/String;)V
+java.lang.Integer#parseInt(Ljava/lang/String;)I
+==
+findById ma.emsi.serviceUser.repository.UserRepository#findById(I)Lma/emsi/serviceUser/model/User;

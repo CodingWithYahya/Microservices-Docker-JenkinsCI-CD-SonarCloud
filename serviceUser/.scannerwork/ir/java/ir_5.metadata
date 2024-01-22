@@ -1,0 +1,6 @@
+ma.emsi.serviceUser.controller.UserControllerTest#findAll()V
+ma.emsi.serviceUser.model.User#instance-init#
+ma.emsi.serviceUser.model.User#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+==
+findAll ma.emsi.serviceUser.controller.UserController#findAll()Ljava/util/List;

@@ -1,0 +1,9 @@
+ma.emsi.serviceUser.model.UserTest#testAllArgsConstructor()V
+ma.emsi.serviceUser.model.User#instance-init#
+ma.emsi.serviceUser.model.User#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+==
+getPassword ma.emsi.serviceUser.model.User#getPassword()Ljava/lang/String;
+getId ma.emsi.serviceUser.model.User#getId()I
+getNom ma.emsi.serviceUser.model.User#getNom()Ljava/lang/String;
+getPrenom ma.emsi.serviceUser.model.User#getPrenom()Ljava/lang/String;
+getEmail ma.emsi.serviceUser.model.User#getEmail()Ljava/lang/String;

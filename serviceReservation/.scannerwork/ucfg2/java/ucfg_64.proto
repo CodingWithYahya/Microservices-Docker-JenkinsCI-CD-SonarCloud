@@ -1,0 +1,100 @@
+
+Cma.emsi.serviceReservation.model.Hotel#toString()Ljava/lang/String;Œ
+/C:/Users/crazy/OneDrive/Bureau/New folder (3)/hotel/serviceReservation/src/main/java/ma/emsi/serviceReservation/model/Hotel.java= =("1*ï
+
+1>	 >(^
+\
+>	 >(
+%0java.lang.String"__concat*
+>	 >(
+
+Hotel [id=*
+> >(
+""l
+j
+>	 >(%
+%1java.lang.String"__concat*$
+>	 >(
+
+%0java.lang.String*
+> >(%
+
+, nom={
+y
+>( >(+
+%2java.lang.String"__id*O
+
+__unknown_file (3*1(
+&ma.emsi.serviceReservation.model.Hotel"
+nomz
+x
+>	 >(+
+%3java.lang.String"__concat*$
+>	 >(%
+
+%1java.lang.String*$
+>( >(+
+
+%2java.lang.Stringp
+n
+>	 >(:
+%4java.lang.String"__concat*$
+>	 >(+
+
+%3java.lang.String*
+>. >(:
+
+, adresse=
+}
+>= >(D
+%5java.lang.String"__id*S
+
+__unknown_file (7*5(
+&ma.emsi.serviceReservation.model.Hotel"	
+adressez
+x
+>	 >(D
+%6java.lang.String"__concat*$
+>	 >(:
+
+%4java.lang.String*$
+>= >(D
+
+%5java.lang.Stringn
+l
+>	 >(Q
+%7java.lang.String"__concat*$
+>	 >(D
+
+%6java.lang.String*
+>G >(Q
+
+, ville=”
+‘
+>T >(Y,
+%8&ma.emsi.serviceReservation.model.Ville"__id*Q
+
+__unknown_file (5*3(
+&ma.emsi.serviceReservation.model.Hotel"
+ville‘
+Ž
+>	 >(Y
+%9java.lang.String"__concat*$
+>	 >(Q
+
+%7java.lang.String*:
+>T >(Y.
+,
+%8&ma.emsi.serviceReservation.model.Villeh
+f
+>	 >(_
+%10java.lang.String"__concat*$
+>	 >(Y
+
+%9java.lang.String*
+>\ >(_
+]"%
+> >(`
+
+%10java.lang.StringB*(
+&ma.emsi.serviceReservation.model.HotelH

@@ -1,0 +1,119 @@
+version: '3'
+
+services:
+  server:
+    build:
+      context: ./server
+    ports:
+      - "8761:8761"
+    networks:
+      - my-network
+
+  gateway:
+    build:
+      context: ./gateway
+    ports:
+      - "8888:8888"
+    networks:
+      - my-network
+    depends_on:
+      - server
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://server:8761/eureka/
+
+  serviceuser:
+    build:
+      context: ./serviceUser
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mysqluser
+      - server
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysqluser:3306/service_user
+      SPRING_DATASOURCE_USERNAME: user
+      SPRING_DATASOURCE_PASSWORD: password
+      SPRING_JPA_SHOW_SQL: true
+      SPRING_JPA_PROPERTIES_HIBERNATE_FORMAT_SQL: true
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://server:8761/eureka/
+    networks:
+      - my-network
+
+  servicechambre:
+    build:
+      context: ./serviceChambre
+    ports:
+      - "8082:8082"
+    depends_on:
+      - mysqlchambre
+      - server
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysqlchambre:3306/service_chambre
+      SPRING_DATASOURCE_USERNAME: user
+      SPRING_DATASOURCE_PASSWORD: password
+      SPRING_JPA_SHOW_SQL: true
+      SPRING_JPA_PROPERTIES_HIBERNATE_FORMAT_SQL: true
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://server:8761/eureka/
+    networks:
+      - my-network
+
+  servicereservation:
+    build:
+      context: ./serviceReservation
+    ports:
+      - "8083:8083"
+    depends_on:
+      - mysqlreservation
+      - server
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysqlreservation:3306/service_reservation?serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: user
+      SPRING_DATASOURCE_PASSWORD: password
+      SPRING_JPA_SHOW_SQL: true
+      SPRING_JPA_PROPERTIES_HIBERNATE_FORMAT_SQL: true
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://server:8761/eureka/
+    networks:
+      - my-network
+
+  mysqluser:
+    image: mysql:latest
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_DATABASE: service_user
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    networks:
+      - my-network
+
+  mysqlchambre:
+    image: mysql:latest
+    ports:
+      - "3308:3306"
+    environment:
+      MYSQL_DATABASE: service_chambre
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    networks:
+      - my-network
+
+  mysqlreservation:
+    image: mysql:latest
+    ports:
+      - "3309:3306"
+    environment:
+      MYSQL_DATABASE: service_reservation
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge

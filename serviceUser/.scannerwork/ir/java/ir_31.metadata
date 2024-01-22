@@ -1,0 +1,5 @@
+ma.emsi.serviceUser.model.UserTest#testToString()V
+ma.emsi.serviceUser.model.User#instance-init#
+ma.emsi.serviceUser.model.User#<init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+==
+toString ma.emsi.serviceUser.model.User#toString()Ljava/lang/String;
